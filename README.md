@@ -67,7 +67,7 @@ The major advantange of refactoring the code was that the use of a common index 
 
 The major advantages of refactoring code are that it can:
 1. help to optimize performance, thus allowing the analyst to get more work done in a given amount of time and with a given amount of processing capacity; and that it can
-2. make code more flexible and adaptable, thus allowing the analyst to change the code more easily to ask different questions or to work with different datasets.
+2. make code more flexible and adaptable, thus allowing the analyst to more easily ask different questions or work with different datasets.
 
 #### GENERAL DISADVANTAGES OF REFACTORING CODE
 The major disadvantages of refactoring code are that it can:
