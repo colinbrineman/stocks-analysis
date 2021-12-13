@@ -23,30 +23,30 @@ The deliverables for the Module 2 challenge include:
 
 ### COMPARING STOCK PERFORMANCES FOR 2017 VS. 2018
 
-FIGURE 1: TOTAL DAILY VOLUMES AND RETURNS, 2017
+#### FIGURE 1: TOTAL DAILY VOLUMES AND RETURNS, 2017
 ![FIGURE 1: TOTAL DAILY VOLUMES AND RETURNS, 2017](/Resources/VBA_Results_2017.png)
 
-FIGURE 2: TOTAL DAILY VOLUMES AND RETURNS, 2018
+#### FIGURE 2: TOTAL DAILY VOLUMES AND RETURNS, 2018
 ![FIGURE 1: TOTAL DAILY VOLUMES AND RETURNS, 2018](/Resources/VBA_Results_2018.png)
 
-FIGURE 3: PERCENTAGE CHANGE IN TOTAL DAILY VOLUMES AND RETURNS, 2017 VS. 2018
+#### FIGURE 3: PERCENTAGE CHANGE IN TOTAL DAILY VOLUMES AND RETURNS, 2017 VS. 2018
 ![FIGURE 1: TOTAL DAILY VOLUMES AND RETURNS, 2018](/Resources/VBA_Results_Comparison.png)
 
 Comparing Figure 1 and Figure 2, one can see that none of the stocks which had positive annual returns for 2017 went onto have positive annual returns for 2018. Further statistical analysis shows that the median return for the 12 selected stocks was 41.5% in 2017, but their median return dropped to -12.0% in 2018. From Figure 3, one can see that the stock with the smallest absolute percentage change in annual return between 2017 and 2018 had a change in return of -30.8%, while the stock with the largest absolute percentage change in annual return between 2017 and 2018 had a change in return of 1,414.9%. The picture that one comes away with from these figures is one of overwhelming volatility, although it could be said that financial analysts have other measures of stock price volatility, which could be more robust than a simple comparison of annual returns from 1 year to the next. Nevertheless, one might recommend to Steve that he advise his parents to invest in stocks with more consistent performances than the 12 green energy stocks he selected.
 
 ### COMPARING RUNTIMES FOR THE ORIGINAL MACRO VS. THE REFACTORED MACRO
 
-FIGURE 4: RUNTIME FOR ORIGINAL MACRO, 2017
-![FIGURE 1: TOTAL DAILY VOLUMES AND RETURNS, 2017](/Resources/VBA_Original_2017.png)
+#### FIGURE 4: RUNTIME FOR ORIGINAL MACRO, 2017
+![FIGURE 4: RUNTIME FOR ORIGINAL MACRO, 2017](/Resources/VBA_Original_2017.png)
 
-FIGURE 5: RUNTIME FOR ORIGINAL MACRO, 2018
-![FIGURE 1: TOTAL DAILY VOLUMES AND RETURNS, 2017](/Resources/VBA_Original_2018.png)
+#### FIGURE 5: RUNTIME FOR ORIGINAL MACRO, 2018
+![FIGURE 5: RUNTIME FOR ORIGINAL MACRO, 2018](/Resources/VBA_Original_2018.png)
 
-FIGURE 6: RUNTIME FOR REFACTORED MACRO, 2017
-![FIGURE 1: TOTAL DAILY VOLUMES AND RETURNS, 2017](/resources/VBA_Challenge_2017.png)
+#### FIGURE 6: RUNTIME FOR REFACTORED MACRO, 2017
+![FIGURE 6: RUNTIME FOR REFACTORED MACRO, 2017](/resources/VBA_Challenge_2017.png)
 
-FIGURE 7: RUNTIME FOR REFACTORED MACRO, 2018
-![FIGURE 1: TOTAL DAILY VOLUMES AND RETURNS, 2017](/Resources/VBA_Challenge_2018.png)
+#### FIGURE 8: RUNTIME FOR REFACTORED MACRO, 2018
+![FIGURE 1: RUNTIME FOR REFACTORED MACRO, 2018](/Resources/VBA_Challenge_2018.png)
 
 Comparing Figures 4 and 5 with Figures 6 and 7, one can see that there is a striking difference between the runtimes of the macros before and after refactoring. The average runtime for the original macros was 0.54296875 seconds, while the average runtime for the refactored macros was 0.09375 seconds, meaning that refactoring the macro reduced the average runtime by more than 80%. Therefore, one could certainly advise Steve to make use of the refactored macro, rather than the original one, because such a large difference in runtime could certainly make his goal of analyzing the entire stock market in Excel much quicker and easier to accomplish.
 
