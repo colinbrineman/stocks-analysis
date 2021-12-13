@@ -61,15 +61,15 @@ Text files of the original macro and the refactored macro can be found at [/reso
 #### BENEFIT AND COST OF REFACTORING THE MACRO
 The major benefit of refactoring the code is that the use of a common index variable means that the subroutine can find the correct values to feed to our output worksheet, for all variables simultaneously as it loops over the rows, thus meaning the loop only has to be performanced 1x, rather than 12x. The major cost of refactoring the code is that it is rather time-consuming, whereas starting from scratch could likely have been easier.
 
-### THE ADVANTAGES AND DISADVANTAGES OF REFACTORING CODE
+### GENERAL ADVANTAGES AND DISADVANTAGES OF REFACTORING CODE
 
-#### ADVANTAGES OF REFACTORING CODE
+#### GENERAL ADVANTAGES OF REFACTORING CODE
 
 The major advantages of refactoring code are that it can:
 1. help to optimize performance, thus allowing the analyst to get more work done in a given amount of time and with a given amount of processing capacity; and that it can
 2. make code more flexible and adaptable, thus allowing the analyst to change the code more easily to ask different questions or to work with different datasets.
 
-#### DISADVANTAGES OF REFACTORING CODE
+#### GENERAL DISADVANTAGES OF REFACTORING CODE
 The major disadvantages of refactoring code are that it can:
 1. cause the analyst to make unnecessary mistakes when lines of code are copied-and-pasted, thus bogging the analyst down with fixing bugs or even introducing errors into the final results of the analysis; and that it can
 2. hinder the analyst from thoroughly thinking through the relevant questions which their analysis seeks to answer, as the analyst may be find their reasoning constrained by the design of the original code.
