@@ -10,7 +10,7 @@ Colin Brineman, M.A.
 
 ### OBJECTIVES
 
-The challenge for Module 2 is to create a macro in Excel VBA for Steve, a recent graduate with a degree in finance, so that he can best advise his parents on how to diversify their retirement investments. During the Module 2 lessons, a macro was created for Steve which satisfied his initial goal, namely, to summarize the annual total volumes and rates of return for 12 green energy stocks. The purpose of the challenge is to refactor the original macro to run more quickly, so that Steve can put the refactored macro to use analyzing a larger data set covering the entire stock market.
+The challenge for Module 2 is to create a macro in Excel VBA for Steve, a recent graduate with a degree in finance, so that he can best advise his parents on how to diversify their retirement investments. During the Module 2 lessons, a macro was created for Steve which satisfied his initial goal, namely, to summarize the annual total volumes and rates of return for 12 green energy stocks. The purpose of the challenge is to refactor the original macro to run more quickly, so that Steve can put the refactored macro to use analyzing a larger dataset covering the entire stock market.
 
 ### DELIVERABLES
 
@@ -53,13 +53,13 @@ Comparing Figures 4 and 5 with Figures 6 and 7, one can see that there is a stri
 ### DIFFERENCES BETWEEN THE ORIGINAL MACRO AND THE REFACTORED MACRO
 
 #### STEPS IN REFACTORING THE MACRO
-Text files of the original macro and the refactored macro can be found at [/resources/VBA_Challenge_Script.vb](/Resources/VBA_Challenge_Script.vb) and [/resources/VBA_Original_Script.vb](/Resources/VBA_Original_Script.vb) respectively. The major steps of refactoring the macro were as follows:
+Text files of the original macro and the refactored macro can be found at [/Resources/VBA_Challenge_Script.vb](/Resources/VBA_Challenge_Script.vb) and [/Resources/VBA_Original_Script.vb](/Resources/VBA_Original_Script.vb) respectively. The major steps of refactoring the macro were as follows:
 1. introducing a new index variable, tickerIndex;
 2. changing the output variables into arrays, namely, tickerVolumes(), tickerStartingPrices(), and tickerEndingPrices(); and
 3. using tickerIndex to access the correct index in the output variables and in tickers().
 
 #### ADVANTAGE AND DISADVANTAGE OF REFACTORING THE MACRO
-The major advantange of refactoring the code was that the use of a common index variable enabled the subroutine to find the correct values for all variables simultaneously as it looped over the rows, thus meaning the loop only had to be performanced 1x, rather than, as in the original macro, 12x. The major disadvantange of refactoring the macro was that it was rather time-consuming, whereas starting from scratch could likely have been easier.
+The major advantange of refactoring the code was that the use of a common index variable enabled the subroutine to find the correct values for all variables simultaneously as it looped over the rows. As a result, the loop only had to be performanced 1x, rather than 12x, as in the original macro. The major disadvantange of refactoring the macro was that it was rather time-consuming, whereas starting from scratch would likely have been easier.
 
 ### GENERAL ADVANTAGES AND DISADVANTAGES OF REFACTORING CODE
 
@@ -72,7 +72,7 @@ The major advantages of refactoring code are that it can:
 #### GENERAL DISADVANTAGES OF REFACTORING CODE
 The major disadvantages of refactoring code are that it can:
 1. cause the analyst to make unnecessary mistakes when lines of code are copied-and-pasted, thus bogging the analyst down with fixing bugs or, even worse, introducing errors into the final results of the analysis; and that it can
-2. hinder the analyst from thoroughly thinking through the relevant questions which their analysis seeks to answer, as the analyst may be find their reasoning constrained by the design of the original code.
+2. hinder the analyst from thoroughly thinking through the relevant questions which their analysis seeks to answer, as the analyst may find their reasoning constrained by the design of the original code.
 
 ## CONCLUSION
 The Module 2 challenge, writing and refactoring an Excel VBA macro to analyze stock market data, demonstrates both how frustrating it can be to refactor code, as well as how substantial the performance gains of refactoring can be. On the one hand, the analysis performed for Steve does seem to suggest that his parents should look for other stocks to buy than the 12 green energy stocks he selected. Fortunately, however, Steve now has at his disposal a more powerful macro which is much better prepared than its predecessor for the task of analyzing the entire stock market.
