@@ -71,8 +71,8 @@ The major advantages of refactoring code are that it can:
 
 #### GENERAL DISADVANTAGES OF REFACTORING CODE
 The major disadvantages of refactoring code are that it can:
-1. cause the analyst to make unnecessary mistakes when lines of code are copied-and-pasted, thus bogging the analyst down with fixing bugs or even introducing errors into the final results of the analysis; and that it can
+1. cause the analyst to make unnecessary mistakes when lines of code are copied-and-pasted, thus bogging the analyst down with fixing bugs or, even worse, introducing errors into the final results of the analysis; and that it can
 2. hinder the analyst from thoroughly thinking through the relevant questions which their analysis seeks to answer, as the analyst may be find their reasoning constrained by the design of the original code.
 
 ## CONCLUSION
-The Module 2 challenge, writing and refactoring an Excel VBA macro to analyze stock market data, demonstrates both how frustrating it can be to refactor code, as well as how substantial the performance gains of refactoring can be. On the one hand, the analysis performed for Steve does seem to suggest that his parents should look for other stocks to buy than the 12 green energy stocks he selected. Fortunately, however, Steve now has at his disposal a macro which is much more up to the task of analyzing the entire stock market than the original macro which was made for him during the Module lessons.
+The Module 2 challenge, writing and refactoring an Excel VBA macro to analyze stock market data, demonstrates both how frustrating it can be to refactor code, as well as how substantial the performance gains of refactoring can be. On the one hand, the analysis performed for Steve does seem to suggest that his parents should look for other stocks to buy than the 12 green energy stocks he selected. Fortunately, however, Steve now has at his disposal a more powerful macro which is much better prepared than its predecessor for the task of analyzing the entire stock market.
