@@ -43,7 +43,7 @@ Comparing Figure 1 and Figure 2, one can see that none of the stocks which had p
 ![FIGURE 5: RUNTIME FOR ORIGINAL MACRO, 2018](/Resources/VBA_Original_2018.png)
 
 #### FIGURE 6: RUNTIME FOR REFACTORED MACRO, 2017
-![FIGURE 6: RUNTIME FOR REFACTORED MACRO, 2017](/resources/VBA_Challenge_2017.png)
+![FIGURE 6: RUNTIME FOR REFACTORED MACRO, 2017](/Resources/VBA_Challenge_2017.png)
 
 #### FIGURE 8: RUNTIME FOR REFACTORED MACRO, 2018
 ![FIGURE 1: RUNTIME FOR REFACTORED MACRO, 2018](/Resources/VBA_Challenge_2018.png)
