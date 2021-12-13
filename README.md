@@ -58,8 +58,8 @@ Text files of the original macro and the refactored macro can be found at [/reso
 2. changing the output variables into arrays, namely, tickerVolumes(), tickerStartingPrices(), and tickerEndingPrices(); and
 3. using tickerIndex to access the correct index in the output variables and in tickers().
 
-#### BENEFIT AND COST OF REFACTORING THE MACRO
-The major benefit of refactoring the code is that the use of a common index variable means that the subroutine can find the correct values to feed to our output worksheet, for all variables simultaneously as it loops over the rows, thus meaning the loop only has to be performanced 1x, rather than 12x. The major cost of refactoring the code is that it is rather time-consuming, whereas starting from scratch could likely have been easier.
+#### ADVANTAGE AND DISADVANTAGE OF REFACTORING THE MACRO
+The major advantange of refactoring the code was that the use of a common index variable enabled the subroutine to find the correct values for all variables simultaneously as it looped over the rows, thus meaning the loop only had to be performanced 1x, rather than, as in the original macro, 12x. The major disadvantange of refactoring the macro was that it was rather time-consuming, whereas starting from scratch could likely have been easier.
 
 ### GENERAL ADVANTAGES AND DISADVANTAGES OF REFACTORING CODE
 
